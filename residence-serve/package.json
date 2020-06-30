@@ -1,0 +1,21 @@
+{
+    "name": "node_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.12.1",
+        "koa-body": "^4.2.0",
+        "koa-bodyparser": "^4.3.0",
+        "koa-router": "^9.0.1",
+        "koa-static": "^5.0.0",
+        "mysql": "^2.18.1"
+    }
+}

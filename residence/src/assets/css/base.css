@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #303133;
+}
+
+
+/* 设置浏览器 默认滚动条隐藏    
+   只在谷歌 火狐浏览器生效
+*/
+
+body::-webkit-scrollbar {
+    display: none;
+}
